@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bangric</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+<header class="sticky-header">
+  <nav class="navbar">
+    <!-- Hamburger on the left -->
+    <div class="hamburger" id="hamburger">
+      <i class="fas fa-bars"></i>
+    </div>
+
+    <!-- Logo in center (adjustable) -->
+    <div class="logo">🌿 Bangric</div>
+
+    <!-- Nav links -->
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#Home">Home</a></li>
+      <li><a href="#About">About</a></li>
+      <li><a href="#Service">Services</a></li>
+      <li><a href="#Contact">Contact Us</a></li>
+      <li><a href="#delivery">Delivery</a></li>
+    </ul>
+
+    <!-- Search + Cart -->
+    <div class="nav-right">
+      <i class="fas fa-search search-icon"></i>
+      <i class="fas fa-shopping-cart cart-icon"></i>
+    </div>
+  </nav>
+</header>
+
+
+<!-- Hero Section -->
+<section class="hero" id="Home">
+  <div class="dark-overlay"></div>
+  <div class="overlay-content">
+    <p>Welcome to Agriculture Farm</p>
+    <h1>Pure Agriculture Products</h1>
+    <button class="btn animate"><i class="fas fa-leaf"></i> Discover Now</button>
+  </div>
+</section>
+
+
+ <!-- Introduction Section -->
+<section class="intro" id="About">
+  <div class="intro-img">
+    <img src="assets.jpg" alt="Farmers" />
+  </div>
+  <div class="intro-content">
+    <h3>Our Introduction</h3>
+    <h2>Agriculture & Organic Product Form</h2>
+    <p>
+      Committed to sustainable farming and eco-friendly organic solutions that
+      nurture the earth.
+    </p>
+    <ul>
+      <li><i class="fas fa-check-circle"></i> Organic Solutions</li>
+      <li><i class="fas fa-check-circle"></i> Quality Agriculture</li>
+      <li><i class="fas fa-check-circle"></i> Sustainable Farming</li>
+      <li><i class="fas fa-check-circle"></i> Fresh & Healthy Produce</li>
+    </ul>
+  </div>
+
+  <!-- <div class="progress-wrapper">
+    <svg class="progress-circle" width="120" height="120" viewBox="0 0 120 120">
+      <circle
+        class="progress-bg"
+        cx="60"
+        cy="60"
+        r="54"
+        stroke="#e0e0e0"
+        stroke-width="12"
+        fill="none"
+      />
+      <circle
+        class="progress-bar"
+        cx="60"
+        cy="60"
+        r="54"
+        stroke="#388e3c"
+        stroke-width="12"
+        fill="none"
+        stroke-linecap="round"
+        stroke-dasharray="339.292"
+        stroke-dashoffset="339.292"
+      />
+      <text
+        x="60"
+        y="68"
+        text-anchor="middle"
+        font-size="28"
+        fill="#388e3c"
+        font-weight="bold"
+        class="progress-text"
+      >
+        0%
+      </text>
+    </svg>
+
+    <div class="progress-texts">
+      <p>Organic Solutions</p>
+      <p>Quality Agriculture</p>
+    </div>
+  </div> -->
+</section>
+
+
+  <!-- Features -->
+  <section class="features">
+    <div class="feature-box">
+      <i class="fas fa-cogs fa-bounce"></i>
+      <h4>We Use New Technology</h4>
+    </div>
+    <div class="feature-box">
+      <i class="fas fa-apple-alt fa-shake"></i>
+      <h4>Making Healthy Foods</h4>
+    </div>
+    <div class="feature-box">
+      <i class="fas fa-sync-alt fa-spin"></i>
+      <h4>Reforming in the Systems</h4>
+    </div>
+  </section>
+
+<!-- Services -->
+<section class="services" id="Service">
+  <h3>Our Services List</h3>
+  <h2>What We're Offering</h2>
+  <div class="service-grid">
+    <div class="service-card">
+      <img src="agriculture.jpg" alt="Agriculture">
+      <h4>Agriculture Products</h4>
+      <p>High-quality farming goods straight from the source.</p>
+    </div>
+    <div class="service-card">
+      <img src="organic.jpeg" alt="Organic">
+      <h4>Organic Products</h4>
+      <p>Pure, chemical-free produce for your health.</p>
+    </div>
+    <div class="service-card">
+      <img src="vegetables.jpg" alt="Vegetables">
+      <h4>Fresh Vegetables</h4>
+      <p>Crisp and fresh vegetables harvested daily.</p>
+    </div>
+    <div class="service-card">
+      <img src="diary.webp" alt="Dairy">
+      <h4>Dairy Products</h4>
+      <p>Fresh milk, cheese, and more from local farms.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Customer Reviews Section -->
+<section class="reviews">
+  <h3>What Our Customers Say</h3>
+  <div class="slider">
+    <div class="slide active">
+      <img src="woman.avif" alt="Customer 1" />
+      <p>"Absolutely fresh and healthy produce. I love the organic taste!"</p>
+      <h4>- Sarah M.</h4>
+    </div>
+    <div class="slide">
+      <img src="man1.jpg" alt="Customer 2" />
+      <p>"Great service and top-notch quality. Highly recommend!"</p>
+      <h4>- James K.</h4>
+    </div>
+    <div class="slide">
+      <img src="man2.jpg" alt="Customer 3" />
+      <p>"Their dairy products are the best I’ve ever tasted."</p>
+      <h4>- james R.</h4>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="Contact">
+  <div class="contact-img">
+    <img src="contact.jpg" alt="Contact Us">
+  </div>
+  <div class="contact-form">
+    <h3>Contact Us</h3>
+    <p>We’d love to hear from you. Please fill out the form below.</p>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+</section>
+
+
+  <!-- Delivery Section -->
+  <section class="delivery-section" id="delivery">
+    <div class="delivery-container">
+      <div class="delivery-text">
+        <h2><i class="fas fa-tractor"></i> Farm-Fresh Delivery</h2>
+        <p>
+          We deliver organic produce straight from the farm to your door with care, speed, and sustainability.
+        </p>
+        <ul>
+          <li><i class="fas fa-leaf"></i> 100% Organic & Eco-Friendly Packaging</li>
+          <li><i class="fas fa-route"></i> Real-Time Delivery Tracking</li>
+          <li><i class="fas fa-hand-holding-heart"></i> Direct from Local Farmers</li>
+        </ul>
+        <a href="#contact" class="delivery-btn"><i class="fas fa-phone-alt"></i> Schedule Delivery</a>
+      </div>
+      <div class="delivery-image">
+        <img src="delivery.jpg" alt="Farm Delivery" />
+      </div>
+    </div>
+  </section>
+
+<footer class="footer">
+  <div class="footer-content">
+    <div class="footer-about">
+      <h3>Bangric</h3>
+      <p>Committed to sustainable and organic agricultural solutions that nourish the world.</p>
+    </div>
+
+    <div class="footer-social">
+      <h4>Follow Us</h4>
+      <a href="https://www.instagram.com/bangistech/" target="_blank" aria-label="Instagram">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/babangida-musa-9a813a355/" target="_blank" aria-label="LinkedIn">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; 2025 BangisTech. All Rights Reserved.</p>
+  </div>
+</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
